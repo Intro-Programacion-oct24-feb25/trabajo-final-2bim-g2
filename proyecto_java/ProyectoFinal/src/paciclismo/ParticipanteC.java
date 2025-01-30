@@ -8,6 +8,6 @@ package paciclismo;
  *
  * @author Usuario iTC
  */
-public class Participante {
+public class ParticipanteC {
     
 }

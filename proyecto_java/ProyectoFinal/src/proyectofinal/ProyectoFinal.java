@@ -5,6 +5,13 @@
 package proyectofinal;
 
 import java.util.Scanner;
+import pafutbol.ParticipanteF;
+import panatacion.ParticipanteN;
+import paatletismo.ParticipanteA;
+import pabasquetbol.ParticipanteB;
+import paciclismo.ParticipanteC;
+import patenis.ParticipanteT;
+import payoga.ParticipanteY;
 
 /**
  *
@@ -26,38 +33,38 @@ public class ProyectoFinal {
         int valor;
         boolean bandera = true;
         String salida;
+        String ca = cadena();
         
         while (bandera) {
             System.out.println("ingrese un numero, del (1) al (7)");
             valor = entrada.nextInt();
             switch (valor) {
                 case 1:
-                    registrarParticipanteFutbol();
+                    ParticipanteF.registrarParticipanteFutbol(ca);
                     actividades[0] = actividades[0] + 1;
                     break;
                 case 2:
-                    registrarParticipanteNatacion();
+                    registrarParticipanteNatacion(ca);
                     actividades[1] = actividades[1] + 1;
                     break;
                 case 3:
-                    registrarParticipanteAtletismo();
+                    registrarParticipanteAtletismo(ca);
                     actividades[2] = actividades[2] + 1;
                     break;
                 case 4:
-                    registrarParticipanteBasquet();
+                    registrarParticipanteBasquetbol(ca);
                     actividades[3] = actividades[3] + 1;
                     break;
                 case 5:
-                    registrarParticipanteCiclismo();
+                    registrarParticipanteCiclismo(ca);
                     actividades[4] = actividades[4] + 1;
                     break;
                 case 6:
-                    registrarParticipanteTenis();
+                    registrarParticipanteTenis(ca);
                     actividades[5] = actividades[5] + 1;
                     break;
-                    ;
                 case 7:
-                    registrarParticipanteYoga();
+                    registrarParticipanteYoga(ca);
                     actividades[6] = actividades[6] + 1;
 
                     break;
@@ -86,6 +93,11 @@ public class ProyectoFinal {
         System.out.println(reporte);
     }
     
-    public static String cadena = "REPORTE\n";
+    public static String cadena(){
+        String ca = "REPORTE\n";
+        
+        return ca;
+    }
+             
     
 }
