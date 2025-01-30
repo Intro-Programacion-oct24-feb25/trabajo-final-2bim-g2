@@ -12,6 +12,7 @@ import pabasquetbol.ParticipanteB;
 import paciclismo.ParticipanteC;
 import patenis.ParticipanteT;
 import payoga.ParticipanteY;
+import papresentacion.ReporteCompleto;
 
 /**
  *
@@ -85,12 +86,10 @@ public class ProyectoFinal {
         String info;
         info = obtenerInformacion(actividades);
                         
-        String reporte;
-        
+        String reporte;        
         reporte = obtenerReporte(participantes, actividades);
         
-        System.out.println(info);
-        System.out.println(reporte);
+        ReporteCompleto.obtenerReporteFinal(info, reporte, ca);
     }
     
     public static String cadena(){
