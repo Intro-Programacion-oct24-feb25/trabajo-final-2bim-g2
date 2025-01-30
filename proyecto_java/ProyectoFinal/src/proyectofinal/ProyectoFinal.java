@@ -77,6 +77,7 @@ public class ProyectoFinal {
             }
             System.out.println("desea seguir ingresando actividades, ingrese:"
                     + " (no) para salir");
+            entrada.nextLine();
             salida = entrada.nextLine();
             if (salida.equals("no")) {
                 bandera = false;
