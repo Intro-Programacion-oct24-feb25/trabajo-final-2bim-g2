@@ -13,6 +13,8 @@ import paciclismo.ParticipanteC;
 import patenis.ParticipanteT;
 import payoga.ParticipanteY;
 import papresentacion.ReporteCompleto;
+import painfo.Informacion;
+import pareporte.Reporte;
 
 /**
  *
@@ -84,10 +86,10 @@ public class ProyectoFinal {
         }
         
         String info;
-        info = obtenerInformacion(actividades);
+        info = Informacion.obtenerInformacion(actividades);
                         
         String reporte;        
-        reporte = obtenerReporte(participantes, actividades);
+        reporte = Reporte.obtenerReporte(participantes, actividades);
         
         ReporteCompleto.obtenerReporteFinal(info, reporte, ca);
     }
