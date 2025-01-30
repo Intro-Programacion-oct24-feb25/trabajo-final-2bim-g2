@@ -20,17 +20,17 @@ public class ParticipanteF {
         String ciudad;
         String equipo;
         
-        System.out.println("Ingrese el Nombre del participante:");
+        System.out.println("Ingrese el nombre del participante:");
         nombre = entrada.nextLine();
 
-        System.out.println("Ingrese la edad:");
+        System.out.println("Ingrese su edad:");
         edad = entrada.nextInt();
         entrada.nextLine();
         
-        System.out.println("Ingrese la posición preferida:");
+        System.out.println("Ingrese su posición preferida:");
         posicion = entrada.nextLine();
 
-        System.out.println("Ingrese la ciudad:");
+        System.out.println("Ingrese su ciudad:");
         ciudad = entrada.nextLine();
 
         System.out.println("Ingrese su equipo favorito:");

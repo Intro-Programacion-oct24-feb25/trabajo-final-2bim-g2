@@ -44,27 +44,27 @@ public class ProyectoFinal {
                     actividades[0] = actividades[0] + 1;
                     break;
                 case 2:
-                    registrarParticipanteNatacion(ca);
+                    ParticipanteN.registrarParticipanteNatacion(ca);
                     actividades[1] = actividades[1] + 1;
                     break;
                 case 3:
-                    registrarParticipanteAtletismo(ca);
+                    ParticipanteA.registrarParticipanteAtletismo(ca);
                     actividades[2] = actividades[2] + 1;
                     break;
                 case 4:
-                    registrarParticipanteBasquetbol(ca);
+                    ParticipanteB.registrarParticipanteBasquetbol(ca);
                     actividades[3] = actividades[3] + 1;
                     break;
                 case 5:
-                    registrarParticipanteCiclismo(ca);
+                    ParticipanteC.registrarParticipanteCiclismo(ca);
                     actividades[4] = actividades[4] + 1;
                     break;
                 case 6:
-                    registrarParticipanteTenis(ca);
+                    ParticipanteT.registrarParticipanteTenis(ca);
                     actividades[5] = actividades[5] + 1;
                     break;
                 case 7:
-                    registrarParticipanteYoga(ca);
+                    ParticipanteY.registrarParticipanteYoga(ca);
                     actividades[6] = actividades[6] + 1;
 
                     break;

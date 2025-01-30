@@ -9,5 +9,7 @@ package paciclismo;
  * @author Usuario iTC
  */
 public class ParticipanteC {
-    
+    public static String registrarParticipanteCiclismo(String mensaje){
+        
+    }
 }

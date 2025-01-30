@@ -9,5 +9,7 @@ package payoga;
  * @author Usuario iTC
  */
 public class ParticipanteY {
-    
+    public static String registrarParticipanteYoga(String mensaje){
+        
+    }
 }
