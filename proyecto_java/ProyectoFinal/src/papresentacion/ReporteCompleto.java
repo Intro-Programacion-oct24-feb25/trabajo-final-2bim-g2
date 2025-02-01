@@ -12,7 +12,7 @@ public class ReporteCompleto {
     public static void obtenerReporteFinal(String info, String reporte,
                                            String ca){
         
-        System.out.printf("El deporte para la vida\n%s\n%s\n%s\n",
+        System.out.printf("\nEl deporte para la vida\n%s\n%s\n%s",
                 info, reporte, ca);       
     }
 }
