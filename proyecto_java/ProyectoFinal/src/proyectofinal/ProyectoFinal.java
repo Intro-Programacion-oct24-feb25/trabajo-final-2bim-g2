@@ -24,12 +24,12 @@ public class ProyectoFinal {
     /**
      */
    
-        
+    public static String cadena = "Reporte\n";
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
-        
-        String cadena = "Reporte\n";
+
         int[] actividades = new int[7];
         String[] participantes = {"Futbol", "Natacion", "Atletismo", 
             "Básquetbol", "Ciclismo", "Tenis", "Yoga"};
@@ -93,6 +93,8 @@ public class ProyectoFinal {
         reporte = Reporte.obtenerReporte(participantes, actividades);
         
         ReporteCompleto.obtenerReporteFinal(info, reporte, cadena);
+        
+                
     }
         
 }

@@ -36,7 +36,7 @@ public class ParticipanteN {
         System.out.println("Ingrese su estilo favorito:");
         estilo = entrada.nextLine();
                                 
-        mensaje = String.format("%sRegistrar Participante Futbol\n"
+        mensaje = String.format("%sRegistrar Participante Natación\n"
                 + "Nombre: %s\n"
                 + "Edad: %d\n"
                 + "Nivel: %s\n"
