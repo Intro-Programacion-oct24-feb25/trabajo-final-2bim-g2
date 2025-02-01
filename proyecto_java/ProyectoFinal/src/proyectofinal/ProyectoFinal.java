@@ -21,11 +21,14 @@ import pareporte.Reporte;
  * @author Usuario iTC
  */
 public class ProyectoFinal {
+    
+    public static String cadena = "Reporte\n";
+
     /**
+     * @param args
      */
    
-    public static String cadena = "Reporte\n";
-    
+        
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
