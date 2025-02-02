@@ -46,31 +46,31 @@ public class ProyectoFinal {
             valor = entrada.nextInt();
             switch (valor) {
                 case 1:
-                    ParticipanteF.registrarParticipanteFutbol(cadena);
+                    cadena = ParticipanteF.registrarParticipanteFutbol(cadena);
                     actividades[0] = actividades[0] + 1;
                     break;
                 case 2:
-                    ParticipanteN.registrarParticipanteNatacion(cadena);
+                    cadena = ParticipanteN.registrarParticipanteNatacion(cadena);
                     actividades[1] = actividades[1] + 1;
                     break;
                 case 3:
-                    ParticipanteA.registrarParticipanteAtletismo(cadena);
+                    cadena = ParticipanteA.registrarParticipanteAtletismo(cadena);
                     actividades[2] = actividades[2] + 1;
                     break;
                 case 4:
-                    ParticipanteB.registrarParticipanteBasquetbol(cadena);
+                    cadena = ParticipanteB.registrarParticipanteBasquetbol(cadena);
                     actividades[3] = actividades[3] + 1;
                     break;
                 case 5:
-                    ParticipanteC.registrarParticipanteCiclismo(cadena);
+                    cadena = ParticipanteC.registrarParticipanteCiclismo(cadena);
                     actividades[4] = actividades[4] + 1;
                     break;
                 case 6:
-                    ParticipanteT.registrarParticipanteTenis(cadena);
+                    cadena = ParticipanteT.registrarParticipanteTenis(cadena);
                     actividades[5] = actividades[5] + 1;
                     break;
                 case 7:
-                    ParticipanteY.registrarParticipanteYoga(cadena);
+                    cadena = ParticipanteY.registrarParticipanteYoga(cadena);
                     actividades[6] = actividades[6] + 1;
 
                     break;
@@ -78,7 +78,7 @@ public class ProyectoFinal {
                     System.out.println("lo sentimos, el club no tiene esa "
                             + "opcion");
             }
-            System.out.println("desea seguir ingresando actividades, ingrese:"
+            System.out.println("Desea seguir ingresando actividades, ingrese:"
                     + " (no) para salir");
             entrada.nextLine();
             salida = entrada.nextLine();

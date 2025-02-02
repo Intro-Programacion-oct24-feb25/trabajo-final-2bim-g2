@@ -17,7 +17,8 @@ public class Reporte {
         for (int i = 0; i < actividades.length; i++){
             contador = contador + 1;
             
-            cadena = String.format("%s\n%d.Número de Participantes de %s: %d\n",
+            cadena = String.format("%s\n%d.Número de Participanciones de "
+                    + "%s: %d\n",
                 cadena,
                 contador,
                 participantes[i], 
