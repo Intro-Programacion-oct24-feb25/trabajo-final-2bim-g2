@@ -5,4 +5,4 @@ def registrar_participante_at():
     especialidad = input("Especialidad: ")
     ciudad = input("Ciudad: ")
     record_personal = input("Récord personal: ")
-    return f"Atletismo: {nombre}, {edad} años, especialidad {especialidad}, de {ciudad}, récord personal {record_personal}"
+    return f"Registrar participante Atletismo\nNombre: {nombre}\nEdad: {edad}\nEspecialidad: {especialidad}\nCiudad: {ciudad}\nRécord personal: {record_personal}"

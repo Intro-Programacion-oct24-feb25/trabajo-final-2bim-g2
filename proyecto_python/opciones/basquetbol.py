@@ -1,8 +1,8 @@
-def registrar_participante():
-    print("Registrando participante en Básquetbol")
+def registrar_participante_ba():
+    print("Registrando participante Básquetbol")
     nombre = input("Nombre: ")
     edad = int(input("Edad: "))
     posicion = input("Posición preferida: ")
     estatura = float(input("Estatura (en metros): "))
     ciudad = input("Ciudad: ")
-    return f"Básquetbol: {nombre}, {edad} años, posición {posicion}, {estatura} m, de {ciudad}"
+    return f"Registrar participante Básquetbol\nNombre: {nombre}\nEdad: {edad}\nPosición preferida: {posicion}\nEstatura: {estatura}\nCiudad: {ciudad}"
