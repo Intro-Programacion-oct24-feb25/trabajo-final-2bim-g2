@@ -1,5 +1,7 @@
 # Trabajo Final
 ## Segundo Bimestre
+## Eduardo Peñarrieta 
+## Abraham Ayala
 
 ***
 
