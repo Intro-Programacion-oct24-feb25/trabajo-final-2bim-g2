@@ -41,7 +41,7 @@ public class ParticipanteN {
                 + "Edad: %d\n"
                 + "Nivel: %s\n"
                 + "Ciudad: %s\n"
-                + "Estilo Favorito: %s\n", 
+                + "Estilo Favorito: %s\n\n", 
                 mensaje, nombre, edad, nivel, ciudad, estilo);
         
         return mensaje;

@@ -41,7 +41,7 @@ public class ParticipanteF {
                 + "Edad: %d\n"
                 + "Posicion: %s\n"
                 + "Ciudad: %s\n"
-                + "Equipo: %s\n", 
+                + "Equipo: %s\n\n", 
                 mensaje, nombre, edad, posicion, ciudad, equipo);
         
         return mensaje;

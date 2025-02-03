@@ -22,7 +22,10 @@ import pareporte.Reporte;
  */
 public class ProyectoFinal {
     
-    public static String cadena = "Reporte\n";
+    public static String cadena(){
+        String ca = "Reporte\n";
+        return ca;
+    }
 
     /**
      * @param args
@@ -39,38 +42,40 @@ public class ProyectoFinal {
   
         int valor;
         boolean bandera = true;
-        String salida;        
+        String salida;
+        
+        String ca = cadena();
         
         while (bandera) {
             System.out.println("ingrese un numero, del (1) al (7)");
             valor = entrada.nextInt();
             switch (valor) {
                 case 1:
-                    cadena = ParticipanteF.registrarParticipanteFutbol(cadena);
+                    ca = ParticipanteF.registrarParticipanteFutbol(ca);
                     actividades[0] = actividades[0] + 1;
                     break;
                 case 2:
-                    cadena = ParticipanteN.registrarParticipanteNatacion(cadena);
+                    ca = ParticipanteN.registrarParticipanteNatacion(ca);
                     actividades[1] = actividades[1] + 1;
                     break;
                 case 3:
-                    cadena = ParticipanteA.registrarParticipanteAtletismo(cadena);
+                    ca = ParticipanteA.registrarParticipanteAtletismo(ca);
                     actividades[2] = actividades[2] + 1;
                     break;
                 case 4:
-                    cadena = ParticipanteB.registrarParticipanteBasquetbol(cadena);
+                    ca = ParticipanteB.registrarParticipanteBasquetbol(ca);
                     actividades[3] = actividades[3] + 1;
                     break;
                 case 5:
-                    cadena = ParticipanteC.registrarParticipanteCiclismo(cadena);
+                    ca = ParticipanteC.registrarParticipanteCiclismo(ca);
                     actividades[4] = actividades[4] + 1;
                     break;
                 case 6:
-                    cadena = ParticipanteT.registrarParticipanteTenis(cadena);
+                    ca = ParticipanteT.registrarParticipanteTenis(ca);
                     actividades[5] = actividades[5] + 1;
                     break;
                 case 7:
-                    cadena = ParticipanteY.registrarParticipanteYoga(cadena);
+                    ca = ParticipanteY.registrarParticipanteYoga(ca);
                     actividades[6] = actividades[6] + 1;
 
                     break;
@@ -95,7 +100,7 @@ public class ProyectoFinal {
         String reporte;        
         reporte = Reporte.obtenerReporte(participantes, actividades);
         
-        ReporteCompleto.obtenerReporteFinal(info, reporte, cadena);
+        ReporteCompleto.obtenerReporteFinal(info, reporte, ca);
         
                 
     }

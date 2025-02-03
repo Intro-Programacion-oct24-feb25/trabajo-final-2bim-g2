@@ -41,7 +41,7 @@ public class ParticipanteC {
                 + "Edad: %d\n"
                 + "Tipo de ciclismo: %s\n"
                 + "Ciudad: %s\n"
-                + "marca de bicicleta preferida: %s\n",
+                + "marca de bicicleta preferida: %s\n\n",
                 mensaje, nombre, edad, tipo, ciudad, marca);
 
         return mensaje;

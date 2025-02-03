@@ -42,7 +42,7 @@ public class ParticipanteA {
                 + "Edad: %d\n"
                 + "Especialidad: %s\n"
                 + "Ciudad: %s\n"
-                + "Record Personal: %s\n",
+                + "Record Personal: %s\n\n",
                 mensaje, nombre, edad, especialidad, ciudad, record);
 
         return mensaje;

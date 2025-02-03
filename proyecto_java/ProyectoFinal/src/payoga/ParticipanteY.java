@@ -41,7 +41,7 @@ public class ParticipanteY {
                 + "Edad: %d\n"
                 + "Nivel: %s\n"
                 + "Ciudad: %s\n"
-                + "Estilo de yoga preferido: %s\n", 
+                + "Estilo de yoga preferido: %s\n\n", 
                 mensaje, nombre, edad, nivel, ciudad, estilo);
         
         return mensaje;
